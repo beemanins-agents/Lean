@@ -35,14 +35,14 @@ By default production code should be silent unless there is a fatal exception. B
 * Clone your fork locally
 
 ```bash
-$ git clone https://github.com/username/Lean.git
+$ git clone https://github.com/alphasquadalgorithms/Lean.git
 ```
 
 * Navigate to the QuantConnect Lean directory and add the upstream remote
 
 ```bash
 $ cd Lean
-$ git remote add upstream https://github.com/QuantConnect/Lean.git
+$ git remote add upstream https://alphasquadalgorithms.github.com/QuantConnect/Lean.git
 ```
 
 The remote upstream branch links your fork of Lean with our master copy, so when you perform a `git pull --rebase` you'll be getting updates from our repository.
